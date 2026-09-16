@@ -1,0 +1,55 @@
+/* 设计变量 · 唯一改风格的地方
+   参考：崩坏3 爱莉希雅 —— 粉（主）/ 白（辅）/ 淡紫 + 浅金（点缀）
+   元素语言：水晶、花芽、铃铛、头纱、蝴蝶结、菱形格纹 */
+
+:root {
+  /* 主色 · 樱粉 */
+  --sakura: #e8749b;
+  --sakura-light: #ffb3ce;
+  --sakura-soft: #f8c8d8;
+  --sakura-pale: #fdeef4;
+  --sakura-deep: #d94f80;
+
+  /* 辅色 · 珍珠白 */
+  --pearl: #fffafc;
+  --pearl-dim: #fff2f7;
+
+  /* 点缀 · 淡紫与浅金 */
+  --lilac: #c9a8e0;
+  --lilac-soft: #ece0f6;
+  --gold: #d4af6a;
+  --gold-light: #f2dfb0;
+
+  /* 文字 */
+  --ink: #3b2a35;
+  --ink-soft: #7a6472;
+  --ink-faint: #a8939f;
+
+  /* 语义色 · 定性判断用 */
+  --tone-good: #1d9e75;
+  --tone-mid: #d94f80;
+  --tone-bad: #c2410c;
+
+  /* 渐变 */
+  --grad-dream: linear-gradient(140deg, #fff1f7 0%, #f6e9fb 48%, #fff8ea 100%);
+  --grad-card: linear-gradient(155deg, rgba(255, 255, 255, 0.94) 0%, rgba(255, 240, 247, 0.82) 100%);
+  --grad-sakura: linear-gradient(120deg, var(--sakura-light) 0%, var(--sakura) 100%);
+  --grad-title: linear-gradient(100deg, #d94f80 0%, #a06fc0 55%, #c2913f 100%);
+
+  /* 阴影与光晕 */
+  --shadow-card: 0 6px 26px rgba(216, 140, 180, 0.16);
+  --shadow-card-hover: 0 16px 42px rgba(216, 140, 180, 0.3);
+  --glow-sakura: 0 0 26px rgba(232, 116, 155, 0.42);
+  --glow-lilac: 0 0 30px rgba(201, 168, 224, 0.38);
+
+  /* 描边 */
+  --border-crystal: rgba(232, 116, 155, 0.26);
+  --border-inner: rgba(255, 255, 255, 0.9);
+
+  --radius: 20px;
+  --radius-sm: 12px;
+
+  --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC',
+    'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+  --font-mono: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+}
